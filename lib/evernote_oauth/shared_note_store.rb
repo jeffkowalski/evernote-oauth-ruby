@@ -22,7 +22,7 @@ module EvernoteOAuth
       def initialize(options={})
         @linked_notebook = options[:linked_notebook]
         @client = options[:client]
-        @token = authenticateToSharedNotebook(@linked_notebook.shareKey,
+        @token = authenticateToSharedNotebook(@linked_notebook.sharedNotebookGlobalId,
                                               options[:token]).authenticationToken
       end
     end

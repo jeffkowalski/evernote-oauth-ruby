@@ -27,7 +27,6 @@ Gem::Specification.new do |s|
     s.specification_version = 2
 
     s.add_dependency 'oauth', '>= 0.4.1'
-    s.add_dependency 'evernote-thrift'
     s.add_development_dependency 'rspec'
     s.add_development_dependency 'yard'
     s.add_development_dependency 'redcarpet'
