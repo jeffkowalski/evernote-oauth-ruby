@@ -14,7 +14,6 @@ Gem::Specification.new do |s|
   s.description = %q{evernote_oauth is a Ruby client for the Evernote API using OAuth and Thrift.}
   s.email = %q{api@evernote.com}
   s.files = ["LICENSE", "README.md", "evernote_oauth.gemspec"] + Dir.glob('{lib,spec}/**/*')
-  s.has_rdoc = false
   s.homepage = %q{http://github.com/evernote/evernote-oauth-ruby}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
   s.require_paths = ["lib"]
